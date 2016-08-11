@@ -26,8 +26,8 @@
 			answer: 'Ehm, sure. So how spoiled are we talking about?'
 		},
 		{
-			question: '',
-			answer: 'Ehm, sure. So how spoiled are we talking about?'
+			question: 'How many tasters should I get for a wedding with 100 people',
+			answer: 'Well, that depends on how many distinct food types you will serve. Generaly, we would recommend hiring 5 tasters.'
 		}
 	]
 }
