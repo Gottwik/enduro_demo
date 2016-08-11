@@ -1,0 +1,16 @@
+.menu {
+	float: right;
+	padding: 20px 10px 5px;
+	color: $white;
+	@include no-smooth-font();
+
+
+	li {
+		display: inline-block;
+		margin: 0 10px;
+
+		a {
+			color: inherit;
+		}
+	}
+}

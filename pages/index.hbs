@@ -1,0 +1,35 @@
+{{#>body}}
+
+		{{>slider}}
+
+		<div class="panel padded tricon">
+			<div class="row">
+				{{#each tested_foods}}
+					<div class="col-md-4 text-center">
+						<div class="icon-holder">
+							<i class="fa fa-{{icon}}"></i>
+							<h2>{{title}}</h2>
+							<p>{{text}}</p>
+						</div>
+					</div>
+				{{/each}}
+			</div>
+		</div>
+
+		<div class="panel-wrapper color">
+			<div class="panel">
+				<div class="imagepanel">
+					<div class="image">
+						<img class="circle-image" style="background-image: url('{{testimonial.image}}')">
+					</div>
+					<div class="text">
+						<div class="text-holder">
+							<p class="quote">{{testimonial.text}}</p>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+
+{{/body}}

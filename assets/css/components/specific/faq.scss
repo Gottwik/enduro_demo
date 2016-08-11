@@ -1,0 +1,15 @@
+.faq {
+	&:before {
+		content: $fa-var-question-circle;
+		@include fa-icon();
+		@include font-size(icon2x);
+		float: left;
+		margin-right: 15px;
+		margin-top: 4px;
+	}
+
+	.question {
+		font-weight: 700;
+	}
+
+}

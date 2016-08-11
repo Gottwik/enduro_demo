@@ -1,0 +1,14 @@
+{{#>body}}
+
+	{{>slider slider_context}}
+
+	<div class="panel padded">
+		{{#each faq}}
+			<div class="faq">
+				<div class="question">{{question}}</div>
+				<div class="answer">{{answer}}</div>
+			</div>
+		{{/each}}
+	</div>
+
+{{/body}}

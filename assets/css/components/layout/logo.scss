@@ -1,0 +1,22 @@
+.logo-wrapper {
+	background-color: $accent;
+	width: 400px;
+	transform: rotate(-30deg) translateY(-50%);
+	height: 400px;
+	transform-origin: 0% 0%;
+	float: left;
+	border-radius: 30px;
+}
+
+.logo {
+	position: absolute;
+	left: 10px;
+	bottom: 3px;
+	width: 200px;
+	color: $white;
+
+	path, text {
+		fill: $white;
+
+	}
+}

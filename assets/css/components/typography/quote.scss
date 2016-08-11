@@ -1,0 +1,25 @@
+.quote {
+	@include font-size(md);
+	font-style: italic;
+	font-weight: 100;
+	display: inline-block;
+	position: relative;
+
+	&:before,
+	&:after {
+		content: '"';
+		@include font-size(xl);
+		position: absolute;
+	}
+
+	&:before {
+		left: -30px;
+		top: -30px;
+	}
+
+	&:after {
+		right: 30px;
+		bottom: -50px;
+	}
+
+}

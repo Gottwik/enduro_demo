@@ -1,0 +1,8 @@
+.card-body {
+	color: $black;
+	padding: 30px 30px 20px;
+
+	&.fixed {
+		min-height: 200px;
+	}
+}

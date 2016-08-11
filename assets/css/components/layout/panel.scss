@@ -1,0 +1,10 @@
+.panel {
+	max-width: 1200px;
+	margin: 0 auto;
+	position: relative;
+	padding: 0 20px;
+
+	&.padded {
+		padding: 100px 0;
+	}
+}

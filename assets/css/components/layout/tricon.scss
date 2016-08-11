@@ -1,0 +1,10 @@
+.tricon {
+	.icon-holder {
+		padding: 0 20px;
+	}
+
+	i {
+		@include font-size(icon2x);
+		margin-bottom: 20px;
+	}
+}

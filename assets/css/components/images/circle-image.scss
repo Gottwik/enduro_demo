@@ -1,0 +1,15 @@
+.circle-image {
+	height: 200px;
+	width: 200px;
+	border-radius: 200px;
+	background-size: cover;
+	background-position: center center;
+	float: left;
+	margin-left: 20px;
+
+	@include media-breakpoint-down(md) {
+		display: inline-block;
+		float: none;
+		margin-left: 0;
+	}
+}

@@ -1,0 +1,27 @@
+{
+  "name": "enduro_scaffolding",
+  "description": "",
+  "main": "assets/vendor/enduro/index.js",
+  "authors": [
+    "author goes here"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.0.3",
+    "owl.carousel": "owl-carousel2#~2.0.0-beta.3",
+    "bootstrap": "4",
+    "requirejs": "^2.2.0",
+    "font-awesome": "^4.6.3",
+    "masonry": "^4.1.0",
+    "kiskabricks_wedgecss": "^1.0.0"
+  }
+}

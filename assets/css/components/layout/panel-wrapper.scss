@@ -1,0 +1,29 @@
+.panel-wrapper {
+
+	padding: 50px 0;
+	position: relative;
+
+	// modifiers
+	&.dark,
+	&.color {
+		color: $white;
+	}
+
+	&.color {
+		background-color: $accent;
+	}
+
+	&.dark {
+		background-color: $black;
+		@include no-smooth-font();
+	}
+
+	&.short {
+		padding: 0;
+	}
+
+	// google maps
+	iframe {
+		position: absolute;
+	}
+}

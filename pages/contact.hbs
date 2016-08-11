@@ -1,0 +1,36 @@
+{{#>body}}
+
+		{{>slider slider_context}}
+
+		<div class="panel-wrapper short">
+
+			<iframe width="100%" height="100%" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDMoRncQVBwZVwdh0KaN3eCnu86c6R57Xk&q=Space+Needle,Seattle+WA&center=47.620537,-122.346443" allowfullscreen></iframe>
+			<div class="panel padded">
+				<div class="row">
+					<div class="col-md-6">
+					</div>
+
+					<div class="col-md-6">
+						<div class="contentbox">
+							<h1>Contact</h1>
+
+							{{#each contact_fields}}
+								<p class="short bold">{{label}}</p>
+								{{#if link}}
+									{{#if mailto}}
+										<p><a href="mailto:{{link}}">{{value}}<a></p>
+									{{else}}
+										<p><a href="{{link}}">{{value}}<a></p>
+									{{/if}}
+								{{else}}
+									<p>{{value}}</p>
+								{{/if}}
+							{{/each}}
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+{{/body}}

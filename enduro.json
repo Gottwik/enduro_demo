@@ -1,0 +1,8 @@
+{
+	"project_name": "enduro_demo",
+	"project_slug": "ed",
+	"s3": {
+		"bucket": "enduro.demo",
+		"region": "eu-west-1"
+	}
+}
