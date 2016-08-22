@@ -32,6 +32,7 @@ require(['jquery'], function($) {
 				navText: ['', ''],
 				autoplay: true,
 				autoplayTimeout: 2500,
+				animateOut: 'fadeOut'
 			})
 		})
 	})

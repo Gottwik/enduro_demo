@@ -1,12 +1,19 @@
 .jumboslider {
 	@extend .owl-carousel;
+	height: 80vh;
+	min-height: 600px;
+	display: block !important;
 
 	.slide {
 		height: 80vh;
 		min-height: 600px;
-		background-color: #f00;
 		background-size: cover;
 		background-position: center center;
+		display: none;
+
+		&:first-child {
+			display: block;
+		}
 	}
 
 	&:before {
@@ -19,6 +26,9 @@
 
 	// modifiers
 	&.short {
+		height: 40vh;
+		min-height: 400px;
+
 		.slide {
 			height: 40vh;
 			min-height: 400px;

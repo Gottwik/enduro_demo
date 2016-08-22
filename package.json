@@ -11,6 +11,6 @@
 	"license": "ISC",
 	"dependencies": {
 		"bower": "^1.7.7",
-		"enduro": "1.1.25"
+		"enduro": "1.1.28"
 	}
 }

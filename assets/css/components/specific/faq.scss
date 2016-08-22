@@ -1,4 +1,6 @@
 .faq {
+	margin-bottom: 20px;
+
 	&:before {
 		content: $fa-var-question-circle;
 		@include fa-icon();
