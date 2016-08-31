@@ -1,8 +1,8 @@
 $bootstrap_path: '../vendor/bootstrap/scss/';
 
-@import '#{$bootstrap_path + 'variables'}';
-@import '#{$bootstrap_path + 'normalize'}';
-@import '#{$bootstrap_path + 'mixins'}';
-@import '#{$bootstrap_path + 'reboot'}';
-@import '#{$bootstrap_path + 'grid'}';
-@import '#{$bootstrap_path + 'type'}';
+@import '../vendor/bootstrap/scss/variables';
+@import '../vendor/bootstrap/scss/normalize';
+@import '../vendor/bootstrap/scss/mixins';
+@import '../vendor/bootstrap/scss/reboot';
+@import '../vendor/bootstrap/scss/grid';
+@import '../vendor/bootstrap/scss/type';
